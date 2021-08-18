@@ -1,7 +1,7 @@
 // 1 - Pacote
 package petstore;
 
-// 2 - Blibliotecas
+// 2 - Bibliotecas
 
 import org.testng.annotations.Test;
 
@@ -28,7 +28,7 @@ public class Pet {
 
     // Incluir - Create - Post
     @Test // Identifica o método ou função como teste para o TestNG
-    public void InclirPet() throws IOException {
+    public void IncluirPet() throws IOException {
         String jsonBody = lerJson("db/pet1.json");
 
         // Sintaxe Gherkin
@@ -36,7 +36,7 @@ public class Pet {
         // Given - When - Than
 
         given() // Dado
-                .contentType("application/json") // comun em API REST - antigas era "text/xml
+                .contentType("application/json") // comum em API REST - antigas era "text/xml
                 .log().all()
                 .body(jsonBody)
                 .when() // Quando

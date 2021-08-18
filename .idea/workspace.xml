@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fc5246e-3747-4f70-ae6b-216570551ba9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/pet1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/petstore/Pet.java" afterDir="false" />
+    <list default="true" id="5fc5246e-3747-4f70-ae6b-216570551ba9" name="Changes" comment="Criei o teste para incluir um pet.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/petstore/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/petstore/Pet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +71,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Gradle.Pet.InclirPet">
+  <component name="RunManager" selected="Gradle.Pet">
     <configuration name="Pet" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -130,8 +116,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Pet.InclirPet" />
         <item itemvalue="Gradle.Pet" />
+        <item itemvalue="Gradle.Pet.InclirPet" />
       </list>
     </recent_temporary>
   </component>
@@ -148,11 +134,23 @@
       <workItem from="1629127411419" duration="22000" />
       <workItem from="1629138758789" duration="2386000" />
       <workItem from="1629154172825" duration="1109000" />
-      <workItem from="1629308315567" duration="9525000" />
+      <workItem from="1629308315567" duration="10587000" />
     </task>
+    <task id="LOCAL-00001" summary="Criei o teste para incluir um pet">
+      <created>1629319048572</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629319048572</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Criei o teste para incluir um pet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criei o teste para incluir um pet" />
   </component>
 </project>
