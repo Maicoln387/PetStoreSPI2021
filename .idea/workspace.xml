@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fc5246e-3747-4f70-ae6b-216570551ba9" name="Changes" comment="Criei o teste para incluir um pet.">
+    <list default="true" id="5fc5246e-3747-4f70-ae6b-216570551ba9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/pet1.json" beforeDir="false" afterPath="$PROJECT_DIR$/db/pet1.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/petstore/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/petstore/Pet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +70,9 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RunManager" selected="Gradle.Pet">
@@ -114,9 +118,31 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Pet.IncluirPet" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;petstore.Pet.IncluirPet&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.Pet" />
+        <item itemvalue="Gradle.Pet.IncluirPet" />
         <item itemvalue="Gradle.Pet.InclirPet" />
       </list>
     </recent_temporary>
@@ -134,7 +160,8 @@
       <workItem from="1629127411419" duration="22000" />
       <workItem from="1629138758789" duration="2386000" />
       <workItem from="1629154172825" duration="1109000" />
-      <workItem from="1629308315567" duration="10587000" />
+      <workItem from="1629308315567" duration="12968000" />
+      <workItem from="1629369915513" duration="7664000" />
     </task>
     <task id="LOCAL-00001" summary="Criei o teste para incluir um pet">
       <created>1629319048572</created>
@@ -143,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629319048572</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Criei o teste para incluir um pet.">
+      <created>1629321200687</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1629321200687</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +185,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criei o teste para incluir um pet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criei o teste para incluir um pet" />
+    <MESSAGE value="Criei o teste para incluir um pet." />
+    <option name="LAST_COMMIT_MESSAGE" value="Criei o teste para incluir um pet." />
   </component>
 </project>
