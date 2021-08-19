@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fc5246e-3747-4f70-ae6b-216570551ba9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/db/pet2.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/pet1.json" beforeDir="false" afterPath="$PROJECT_DIR$/db/pet1.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/petstore/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/petstore/Pet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,8 +62,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/db" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -72,6 +72,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Maicon\IdeaProjects\PetStore\db" />
+    </key>
   </component>
   <component name="RunManager" selected="Gradle.PetStore [test]">
     <configuration name="Pet" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -137,12 +142,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Pet.IncluirPet" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Pet.alterarPet" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;petstore.Pet.IncluirPet&quot;" />
+        <option name="scriptParameters" value="--tests &quot;petstore.Pet.alterarPet&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -183,9 +188,9 @@
       <list>
         <item itemvalue="Gradle.PetStore [test]" />
         <item itemvalue="Gradle.PetStore [dependencies]" />
+        <item itemvalue="Gradle.Pet.alterarPet" />
         <item itemvalue="Gradle.Pet.consultarPet" />
         <item itemvalue="Gradle.Pet" />
-        <item itemvalue="Gradle.Pet.IncluirPet" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +209,7 @@
       <workItem from="1629154172825" duration="1109000" />
       <workItem from="1629308315567" duration="12968000" />
       <workItem from="1629369915513" duration="9079000" />
-      <workItem from="1629393672955" duration="8158000" />
+      <workItem from="1629393672955" duration="15466000" />
     </task>
     <task id="LOCAL-00001" summary="Criei o teste para incluir um pet">
       <created>1629319048572</created>
@@ -227,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629382278977</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ConsultarPet (Get)">
+      <created>1629402272018</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1629402272018</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +249,10 @@
     <MESSAGE value="Criei o teste para incluir um pet" />
     <MESSAGE value="Criei o teste para incluir um pet." />
     <MESSAGE value="Completei o script de incluirPet (Post)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completei o script de incluirPet (Post)" />
+    <MESSAGE value="ConsultarPet (Get)" />
+    <option name="LAST_COMMIT_MESSAGE" value="ConsultarPet (Get)" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PetStore$Pet_alterarPet.ic" NAME="Pet.alterarPet Coverage Results" MODIFIED="1629404357865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
