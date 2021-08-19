@@ -2,7 +2,7 @@
   "id": 2005199520,
   "category": {
     "id": 1,
-    "name": "dog 1"
+    "name": "abraco"
   },
   "name": "maicon",
   "photoUrls": [
@@ -10,8 +10,8 @@
   ],
   "tags": [
     {
-      "id": 2021,
-      "name": "sta"
+      "id": 12345678,
+      "name": "pedro"
     }
   ],
   "status": "available"
